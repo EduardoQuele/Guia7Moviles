@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guia7Moviles</string>
+    <string name="TextJugar">Jugar</string>
+    <string name="TextPuntaje">Ver puntaje</string>
+    <string name="TextRespuesta">Ver respuesta correcta</string>
+    <string name="TextMisDatos">Mis datos</string>
+</resources>

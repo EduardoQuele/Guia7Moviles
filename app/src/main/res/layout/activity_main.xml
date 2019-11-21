@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity"
+    android:background="#4AA79B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/fondo2">
+
+        <Button
+            android:id="@+id/btnJugar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/TextJugar"
+            android:scaleType="centerCrop"
+            android:src="@drawable/play"
+            android:background="@drawable/style_boton_play"
+            android:textColor="#FFF"
+            android:elevation="20dp"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/btnPuntaje"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_boton"
+            android:textColor="#FFF"
+            android:elevation="20dp"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/TextPuntaje" />
+
+        <Button
+            android:id="@+id/btnRespuesta"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_boton"
+            android:textColor="#FFF"
+            android:elevation="20dp"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/TextRespuesta" />
+
+        <Button
+            android:id="@+id/btnMisDatos"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/style_boton"
+            android:textColor="#FFFFFF"
+            android:elevation="20dp"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/TextMisDatos" />
+    </LinearLayout>
+
+</LinearLayout>
